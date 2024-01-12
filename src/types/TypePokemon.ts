@@ -25,5 +25,5 @@ export type TypePokemon = {
     sexe: TypeSexe;
     catch_rate: number;
     level_100: number;
-    forme: number | null;
+    forme: string | null;
 };

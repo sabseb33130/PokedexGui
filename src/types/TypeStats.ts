@@ -1,8 +1,8 @@
 export type TypeStats = {
-    hp: number;
-    atk: number;
-    def: number;
-    spe_atk: number;
-    spe_def: number;
-    vit: number;
+    hp: number | null;
+    atk: number | null;
+    def: number | null;
+    spe_atk: number | null;
+    spe_def: number | null;
+    vit: number | null;
 };
