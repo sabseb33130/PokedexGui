@@ -467,7 +467,7 @@ export default function CartePokemon() {
                                         </p>
                                         <div className="col row gx-5">
                                             {' '}
-                                            {resistFaiblesseX2}
+                                            {resistFaiblesseX3}
                                         </div>
                                     </div>
                                 </div>
