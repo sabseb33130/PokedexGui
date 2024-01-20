@@ -147,11 +147,11 @@ export default function ToutPoke() {
                                 <thead key={j}></thead>
                                 <tbody>
                                     <tr>
-                                        <th>
+                                        <td>
                                             {' '}
                                             {data.name}
                                             <td>{data.multiplier}</td>
-                                        </th>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -214,7 +214,7 @@ export default function ToutPoke() {
 
                 <ul className="dropdown-menu">{listPoke} </ul>
 
-                {/* {affPoke}*/}
+              //  {affPoke}
             </div>
             <div className="card text-white ">
                 {imagei}
